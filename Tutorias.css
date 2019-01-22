@@ -1,0 +1,117 @@
+/* Etiqueta,id,clase */
+*{
+
+border: 0;
+margin: 0;
+padding: 0;
+
+
+}
+body{
+/* nombre del color, #rgb, rgb(0,234,8)  */ 
+	background-color: #300;
+	color: white;	
+	text-align: center;
+
+
+}
+
+h1{
+	font-size: 2.9em;
+	margin: 0.7em;
+}
+
+ul{
+	width: 100%;
+
+}
+ul li{
+	border: 1px solid white;
+	color: white;
+	display: inline-block;
+	font-size: 1.3em;
+	padding: 0.4em;
+	width: 23%;
+
+}
+
+ul li:hover{
+	border-radius: 16px;
+	background-color: rgb(50,50,50);
+	transition: 3s;
+
+}
+section{
+	display: inline-block;
+	margin-top: 1em;
+	width: 100%;
+}
+
+section article{
+	background-color: white;
+	display: inline-block;
+	width: 65%;
+}
+section aside{
+	background-color: white;
+	min-height: 530px;
+	display: inline-block;
+	vertical-align: top;
+	width: 100%;
+}
+
+
+section img{
+	max-width: 100%;
+
+}
+
+footer{
+	background-color: #666;
+	box-sizing: border-box;
+	font-weight: bold;
+	color: #ddd;
+	padding: 2em;
+	width: 100%;
+
+}
+
+section#gal{
+	background-color: rgb(70,100,200);
+	width: 100%;
+
+
+}
+
+article.Galeria{
+	display: inline-block;
+	color: black;
+	cursor: pointer;
+	margin: 1em;
+	width: 30%;
+
+}
+
+article.Galeria:hover{
+	box-shadow: 10px 10px 10px 3px rgb(103,100,80);
+	transform: scale3d(1.3,1.3,1.3);
+	transition: 3s;
+
+	/*transform: rotate(6deg);
+	transition: 2s;*/
+}
+
+article.Galeria img:hover{
+/*	opacity: 0.7; */
+	transition: 2s; 
+/*	transform: scale(1.2); */
+}
+
+
+
+article.Galeria img{
+	border-radius: 10px;
+	max-width: 90%;
+	
+}
+
